@@ -6,7 +6,8 @@ function App(){
       'violet', 'blue', 
       'lightblue', 'green',
       'greenyellow', 'yellow',
-      'orange', 'red']
+      'orange', 'red'
+    ]
 
       let colorMap = colors.map((color, i) => {
         return(
@@ -17,7 +18,7 @@ function App(){
         <div className="App">
         {colorMap}
         </div>
-    )
+ )
 }
 
 export default App 
